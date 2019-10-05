@@ -3,6 +3,9 @@
 /*              Base styles                      */
 /* ============================================= */
 
+
+
+/* copied to  base / typography */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
@@ -22,6 +25,8 @@ a {
 /*              Typography                       */
 /* ============================================= */
 
+
+/* copied to typography */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
@@ -32,11 +37,14 @@ a {
   color: #777;
 }
 
+/*  compied to base / typography */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
+
+/*  copied to typography*/
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -78,6 +86,8 @@ a {
   background-color: #fd7856;
 }
 
+
+/* copied to component / grid */
 .theme.col-3 {
   background-color: #deb2ee;
 }
@@ -102,6 +112,7 @@ a {
   background-color: #fd9f85;
 }
 
+/* copied to componenet/ grid */
 .theme.col-9 {
   background-color: #e4757a;
 }
@@ -110,6 +121,8 @@ a {
   background-color: #63cc82;
 }
 
+
+/* copied to component / grid */
 .theme.col-11 {
   background-color: #51ddfc;
 }
@@ -145,6 +158,8 @@ a {
     color .2s ease-in-out;
 }
 
+
+/* copied to component / nav */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -165,10 +180,12 @@ a {
   border-radius: 5px;
 }
 
+/* copoied to component / button */
 .default {
   background-color: #51ddfc;
 }
 
+/* copied to component / button */
 .error {
   background-color: #e4757a;
 }
@@ -194,6 +211,8 @@ a {
   flex-basis: 100%;
 }
 
+
+/* copied to component / form */
 .input{
   display: block;
   width: 94%;
