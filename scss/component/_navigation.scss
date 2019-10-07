@@ -5,6 +5,11 @@
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
+  @include for-wider-screens {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 
 .nav-link {
@@ -16,9 +21,20 @@
   transition: 
     background-color .2s ease-in-out, 
     color .2s ease-in-out;
+    @include for-wider-screens{
+      flex-basis: 100px;
+    }
+    &:hover {
+      color: #fff;
+      background-color: $color-primary;
+    }
 }
 
-.nav-link:hover {
-    color: #fff;
-    background-color: $color-primary;
+.logo {
+  @include for-wider-screens {
+  margin-left: initial;
+  margin-right: initial;
   }
+}
+
+
