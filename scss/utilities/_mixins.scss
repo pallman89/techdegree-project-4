@@ -1,0 +1,7 @@
+//mixin
+
+@mixin for-wider-screens {
+    @media (min-width: $break-large){
+        @content;
+    }
+}

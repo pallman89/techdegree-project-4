@@ -16,11 +16,3 @@ $font-primary: 'Lato', sans-serif;
 
 $break-large: 768px;
 
-
-//mixin
-
-@mixin for-wider-screens {
-    @media (min-width: $break-large){
-        @content;
-    }
-}
